@@ -21,8 +21,9 @@ class RestCrudApp extends StatelessWidget {
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
-            padding: EdgeInsets.symmetric(vertical: 12),
-            textStyle: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+            padding: const EdgeInsets.symmetric(vertical: 12),
+            textStyle:
+                const TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
           ),
         ),
       ),
